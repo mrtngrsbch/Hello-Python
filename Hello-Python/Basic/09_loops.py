@@ -1,60 +1,85 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=23822
+"""
+Clase 09 — Bucles (repetición controlada)
 
-### Loops ###
+Propósito pedagógico:
+- Usar `while` y `for` correctamente.
+- Entender `break`, `continue` y la cláusula `else` de los bucles.
+- Iterar sobre `list`, `tuple`, `set`, `dict` y sus vistas.
 
-# While
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Basic/09_loops.py
+"""
 
-my_condition = 0
+from __future__ import annotations
 
-while my_condition < 10:
-    print(my_condition)
-    my_condition += 2
-else:  # Es opcional
-    print("Mi condición es mayor o igual que 10")
 
-print("La ejecución continúa")
+def demo_while_basico() -> None:
+    print("\n== while básico ==")
+    condicion = 0
+    while condicion < 10:
+        print(condicion)
+        condicion += 2
+    else:  # opcional
+        print("Mi condición es mayor o igual que 10")
 
-while my_condition < 20:
-    my_condition += 1
-    if my_condition == 15:
-        print("Se detiene la ejecución")
-        break
-    print(my_condition)
 
-print("La ejecución continúa")
+def demo_while_con_break() -> None:
+    print("\n== while con break ==")
+    condicion = 10
+    while condicion < 20:
+        condicion += 1
+        if condicion == 15:
+            print("Se detiene la ejecución")
+            break
+        print(condicion)
 
-# For
 
-my_list = [35, 24, 62, 52, 30, 30, 17]
+def demo_for_sobre_colecciones() -> None:
+    print("\n== for sobre colecciones ==")
+    my_list = [35, 24, 62, 52, 30, 30, 17]
+    for e in my_list:
+        print(e)
 
-for element in my_list:
-    print(element)
+    my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
+    for e in my_tuple:
+        print(e)
 
-my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
+    my_set = {"Brais", "Moure", 35}
+    for e in my_set:
+        print(e)
 
-for element in my_tuple:
-    print(element)
+    my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
+    for k in my_dict:
+        print(k)
+        if k == "Edad":
+            break
+    else:
+        print("El bucle for para el diccionario ha finalizado")
 
-my_set = {"Brais", "Moure", 35}
 
-for element in my_set:
-    print(element)
+def demo_for_con_continue_y_else() -> None:
+    print("\n== for con continue y else ==")
+    my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
+    for k in my_dict:
+        print(k)
+        if k == "Edad":
+            continue
+        print("Se ejecuta")
+    else:
+        print("El bucle for para diccionario ha finalizado")
 
-my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
 
-for element in my_dict:
-    print(element)
-    if element == "Edad":
-        break
-else:
-    print("El bucle for para el diccionario ha finalizado")
+if __name__ == "__main__":
+    demo_while_basico()
+    demo_while_con_break()
+    demo_for_sobre_colecciones()
+    demo_for_con_continue_y_else()
 
-print("La ejecución continúa")
+    # Práctica guiada (opcional)
+    # - Imprime los números del 1 al 100, pero salta los múltiplos de 3
+    # - Recorre un diccionario de estudiantes y muestra solo los que tengan nota >= 7
 
-for element in my_dict:
-    print(element)
-    if element == "Edad":
-        continue
-    print("Se ejecuta")
-else:
-    print("El bluce for para diccionario ha finalizado")
+    # Checklist mental
+    # - ¿El bucle termina? (condición/contador en while)
+    # - ¿Necesito `break` o `continue`? ¿Por qué?
+    # - `for` sobre dicts itera por claves; usa .items() si necesitas clave y valor

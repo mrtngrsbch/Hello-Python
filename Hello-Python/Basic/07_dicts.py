@@ -1,76 +1,106 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc
+"""
+Clase 07 — Diccionarios (mapeos clave→valor)
 
-### Dictionaries ###
+Propósito pedagógico:
+- Entender los diccionarios como mapeos de claves hashables a valores.
+- Practicar creación, acceso, inserción, actualización y eliminación.
+- Usar vistas: .keys(), .values(), .items() y utilidades como .get(), .update(), .fromkeys().
+- Evitar errores típicos: KeyError, confundir pertenencia de claves vs. valores, claves no hashables.
 
-# Definición
+Cómo usar este archivo:
+- Ejecuta el script para ver pequeñas demostraciones impresas en consola.
+- Úsalo como referencia rápida y base para experimentar.
+"""
 
-my_dict = dict()
-my_other_dict = {}
+# Pequeñas demostraciones
 
-print(type(my_dict))
-print(type(my_other_dict))
+def demo_basicos() -> None:
+    print("\n== Básicos ==")
+    d_vacio = dict()
+    otro_vacio = {}
+    persona = {
+        "Nombre": "Brais",
+        "Apellido": "Moure",
+        "Edad": 35,
+        "Lenguajes": {"Python", "Swift", "Kotlin"},
+        1: 1.77,
+    }
+    print(type(d_vacio).__name__, type(otro_vacio).__name__)
+    print(len(persona))
 
-my_other_dict = {"Nombre": "Brais",
-                 "Apellido": "Moure", "Edad": 35, 1: "Python"}
 
-my_dict = {
-    "Nombre": "Brais",
-    "Apellido": "Moure",
-    "Edad": 35,
-    "Lenguajes": {"Python", "Swift", "Kotlin"},
-    1: 1.77
-}
+def demo_acceso_y_busqueda() -> None:
+    print("\n== Acceso y búsqueda ==")
+    d = {"Nombre": "Brais", "Apellido": "Moure", 1: 1.77}
+    print(d[1], d["Nombre"])  # KeyError si la clave no existe
+    print("'Apellido' in d?", "Apellido" in d)  # pertenencia sobre claves
+    print("'Moure' in d?", "Moure" in d)        # False: no busca en valores
+    print("get('Altura', 'N/D') ->", d.get("Altura", "N/D"))
 
-print(my_other_dict)
-print(my_dict)
 
-print(len(my_other_dict))
-print(len(my_dict))
+def demo_insercion_actualizacion() -> None:
+    print("\n== Inserción y actualización ==")
+    d = {"Nombre": "Brais"}
+    d["Calle"] = "Calle MoureDev"  # inserción
+    d["Nombre"] = "Pedro"          # actualización
+    d.update({"Edad": 35})
+    print(d)
 
-# Búsqueda
 
-print(my_dict[1])
-print(my_dict["Nombre"])
+def demo_eliminacion() -> None:
+    print("\n== Eliminación ==")
+    d = {"Nombre": "Brais", "Calle": "X"}
+    eliminado = d.pop("Calle", None)  # seguro si no existe
+    print("pop ->", eliminado, d)
+    # del d["Calle"]  # KeyError si no existe
+    d.clear()
+    print("len tras clear:", len(d))
 
-print("Moure" in my_dict)
-print("Apellido" in my_dict)
 
-# Inserción
+def demo_claves_valores_items() -> None:
+    print("\n== Claves, valores e items ==")
+    d = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35}
+    print(list(d.keys()))
+    print(list(d.values()))
+    print(list(d.items()))
 
-my_dict["Calle"] = "Calle MoureDev"
-print(my_dict)
 
-# Actualización
+def demo_fromkeys_y_copias() -> None:
+    print("\n== fromkeys y copias ==")
+    llaves = ["Nombre", "Edad", "Pais"]
+    d1 = dict.fromkeys(llaves)              # valores por defecto None
+    d2 = dict.fromkeys(llaves, "N/D")      # ¡ojo!: mismo objeto si es mutable
+    copia = d2.copy()                        # copia superficial
+    print(d1, d2, copia)
 
-my_dict["Nombre"] = "Pedro"
-print(my_dict["Nombre"])
 
-# Eliminación
+def demo_casos_avanzados() -> None:
+    print("\n== Casos avanzados ==")
+    # Evitar claves no hashables (como listas/dicts)
+    d = {("Brais", "Moure"): 1}  # tuplas sí son hashables si son inmutables
+    print(d)
 
-del my_dict["Calle"]
-print(my_dict)
 
-# Otras operaciones
+if __name__ == "__main__":
+    demo_basicos()
+    demo_acceso_y_busqueda()
+    demo_insercion_actualizacion()
+    demo_eliminacion()
+    demo_claves_valores_items()
+    demo_fromkeys_y_copias()
+    demo_casos_avanzados()
 
-print(my_dict.items())
-print(my_dict.keys())
-print(my_dict.values())
+    # Bloque de práctica guiada (descomentarlo si quieres practicar)
+    # Ejercicio: dado un texto, calcula la frecuencia de cada palabra usando un dict.
+    # texto = "hola hola que tal hola que"
+    # frec = {}
+    # for palabra in texto.split():
+    #     frec[palabra] = frec.get(palabra, 0) + 1
+    # print(frec)  # {'hola': 3, 'que': 2, 'tal': 1}
 
-my_list = ["Nombre", 1, "Piso"]
-
-my_new_dict = dict.fromkeys((my_list))
-print(my_new_dict)
-my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
-print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict)
-print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict, "MoureDev")
-print((my_new_dict))
-
-my_values = my_new_dict.values()
-print(type(my_values))
-
-print(my_new_dict.values())
-print(list(dict.fromkeys(list(my_new_dict.values())).keys()))
-print(tuple(my_new_dict))
-print(set(my_new_dict))
+    # Checklist mental
+    # - Pertenencia con 'in' va sobre claves, no sobre valores
+    # - Acceso seguro: .get(clave, default)
+    # - Mutaciones: asignación directa, .update(), .pop()
+    # - Vistas: .keys(), .values(), .items()
+    # - Claves deben ser hashables (inmutables)
