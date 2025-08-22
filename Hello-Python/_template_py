@@ -1,0 +1,26 @@
+"""
+Plantilla para archivos Python en el proyecto.
+
+Propósito pedagógico:
+- Proveer una estructura inicial para nuevos scripts.
+- Facilitar la organización y estandarización del código.
+
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/<nombre_del_archivo>.py
+"""
+
+from __future__ import annotations
+
+# Definiciones
+
+def demo_template() -> None:
+    """Demostración de la plantilla."""
+    print("Hola, esta es una plantilla.")
+
+
+if __name__ == "__main__":
+    demo_template()
+
+    # Práctica guiada (opcional)
+    # - Añade funciones adicionales siguiendo el patrón.
+    # - Usa esta plantilla como base para nuevos módulos.

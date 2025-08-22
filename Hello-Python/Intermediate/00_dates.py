@@ -1,18 +1,19 @@
-# Clase en vídeo: https://youtu.be/TbcEqkabAWU
+"""
+Clase 00 — Fechas y tiempos (manejo de datetime)
 
-### Dates ###
+Propósito pedagógico:
+- Entender cómo trabajar con fechas y tiempos en Python.
+- Practicar operaciones básicas con objetos datetime, date, time y timedelta.
 
-# Date time
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Intermediate/00_dates.py
+"""
 
-from datetime import timedelta
-from datetime import date
-from datetime import time
-from datetime import datetime
-
-now = datetime.now()
+from __future__ import annotations
+from datetime import timedelta, date, time, datetime
 
 
-def print_date(date):
+def print_date(date: datetime) -> None:
     print(date.year)
     print(date.month)
     print(date.day)
@@ -22,54 +23,38 @@ def print_date(date):
     print(date.timestamp())
 
 
-print_date(now)
+if __name__ == "__main__":
+    now = datetime.now()
+    print_date(now)
 
-year_2023 = datetime(2023, 1, 1)
+    year_2023 = datetime(2023, 1, 1)
+    print_date(year_2023)
 
-print_date(year_2023)
+    current_time = time(21, 6, 0)
+    print(current_time.hour)
+    print(current_time.minute)
+    print(current_time.second)
 
-# Time
+    current_date = date.today()
+    print(current_date.year)
+    print(current_date.month)
+    print(current_date.day)
 
+    current_date = date(2022, 10, 6)
+    print(current_date.year)
+    print(current_date.month)
+    print(current_date.day)
 
-current_time = time(21, 6, 0)
+    current_date = date(current_date.year, current_date.month + 1, current_date.day)
+    print(current_date.month)
 
-print(current_time.hour)
-print(current_time.minute)
-print(current_time.second)
+    diff = year_2023 - now
+    print(diff)
 
-# Date
+    diff = year_2023.date() - current_date
+    print(diff)
 
-
-current_date = date.today()
-
-print(current_date.year)
-print(current_date.month)
-print(current_date.day)
-
-current_date = date(2022, 10, 6)
-
-print(current_date.year)
-print(current_date.month)
-print(current_date.day)
-
-current_date = date(current_date.year,
-                    current_date.month + 1, current_date.day)
-
-print(current_date.month)
-
-# Operaciones con fechas
-
-diff = year_2023 - now
-print(diff)
-
-diff = year_2023.date() - current_date
-print(diff)
-
-# Timedelta
-
-
-start_timedelta = timedelta(200, 100, 100, weeks=10)
-end_timedelta = timedelta(300, 100, 100, weeks=13)
-
-print(end_timedelta - start_timedelta)
-print(end_timedelta + start_timedelta)
+    start_timedelta = timedelta(200, 100, 100, weeks=10)
+    end_timedelta = timedelta(300, 100, 100, weeks=13)
+    print(end_timedelta - start_timedelta)
+    print(end_timedelta + start_timedelta)

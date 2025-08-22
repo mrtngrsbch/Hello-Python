@@ -1,28 +1,36 @@
-# Clase en vídeo: https://youtu.be/TbcEqkabAWU?t=3239
+"""
+Clase 01 — List Comprehension (listas por comprensión)
 
-### List Comprehension ###
+Propósito pedagógico:
+- Crear listas de manera eficiente usando comprensión.
+- Practicar transformaciones y operaciones básicas en listas.
 
-my_original_list = [0, 1, 2, 3, 4, 5, 6, 7]
-print(my_original_list)
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Intermediate/01_list_comprehension.py
+"""
 
-my_range = range(8)
-print(list(my_range))
-
-# Definición
-
-my_list = [i + 1 for i in range(8)]
-print(my_list)
-
-my_list = [i * 2 for i in range(8)]
-print(my_list)
-
-my_list = [i * i for i in range(8)]
-print(my_list)
+from __future__ import annotations
 
 
-def sum_five(number):
+def sum_five(number: int) -> int:
     return number + 5
 
 
-my_list = [sum_five(i) for i in range(8)]
-print(my_list)
+if __name__ == "__main__":
+    my_original_list = [0, 1, 2, 3, 4, 5, 6, 7]
+    print(my_original_list)
+
+    my_range = range(8)
+    print(list(my_range))
+
+    my_list = [i + 1 for i in range(8)]
+    print(my_list)
+
+    my_list = [i * 2 for i in range(8)]
+    print(my_list)
+
+    my_list = [i * i for i in range(8)]
+    print(my_list)
+
+    my_list = [sum_five(i) for i in range(8)]
+    print(my_list)

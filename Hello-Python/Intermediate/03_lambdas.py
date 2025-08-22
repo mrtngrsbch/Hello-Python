@@ -1,14 +1,25 @@
-# Clase en vídeo: https://youtu.be/TbcEqkabAWU?t=9145
+"""
+Clase 03 — Lambdas (funciones anónimas)
 
-### Lambdas ###
+Propósito pedagógico:
+- Introducir el concepto de funciones lambda en Python.
+- Practicar su uso en operaciones simples y como retornos de funciones.
 
-sum_two_values = lambda first_value, second_value: first_value + second_value
-print(sum_two_values(2, 4))
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Intermediate/03_lambdas.py
+"""
 
-multiply_values = lambda first_value, second_value: first_value * second_value - 3
-print(multiply_values(2, 4))
+from __future__ import annotations
 
-def sum_three_values(value):
-    return lambda first_value, second_value: first_value + second_value + value
 
-print(sum_three_values(5)(2, 4))
+if __name__ == "__main__":
+    sum_two_values = lambda first_value, second_value: first_value + second_value
+    print(sum_two_values(2, 4))
+
+    multiply_values = lambda first_value, second_value: first_value * second_value - 3
+    print(multiply_values(2, 4))
+
+    def sum_three_values(value: int) -> callable:
+        return lambda first_value, second_value: first_value + second_value + value
+
+    print(sum_three_values(5)(2, 4))

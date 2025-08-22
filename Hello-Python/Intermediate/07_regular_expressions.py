@@ -1,78 +1,84 @@
-# Clase en vídeo: https://youtu.be/TbcEqkabAWU?t=19762
+"""
+Clase 07 — Regular Expressions (expresiones regulares)
 
-### Regular Expressions ###
+Propósito pedagógico:
+- Introducir el uso de expresiones regulares en Python.
+- Practicar la búsqueda y manipulación de patrones en texto.
 
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Intermediate/07_regular_expressions.py
+"""
+
+from __future__ import annotations
 import re
 
-# match
 
-my_string = "Esta es la lección número 7: Lección llamada Expresiones Regulares"
-my_other_string = "Esta no es la lección número 6: Manejo de ficheros"
+def demo_regular_expressions() -> None:
+    my_string = "Esta es la lección número 7: Lección llamada Expresiones Regulares"
+    my_other_string = "Esta no es la lección número 6: Manejo de ficheros"
 
-match = re.match("Esta es la lección", my_string, re.I)
-print(match)
-start, end = match.span()
-print(my_string[start:end])
-
-match = re.match("Esta no es la lección", my_other_string)
-# if not(match == None): # Otra forma de comprobar el None
-# if match != None: # Otra forma de comprobar el None
-if match is not None:
+    # match
+    match = re.match("Esta es la lección", my_string, re.I)
     print(match)
-    start, end = match.span()
-    print(my_other_string[start:end])
+    if match:
+        start, end = match.span()
+        print(my_string[start:end])
 
-print(re.match("Expresiones Regulares", my_string))
+    match = re.match("Esta no es la lección", my_other_string)
+    if match is not None:
+        print(match)
+        start, end = match.span()
+        print(my_other_string[start:end])
 
-# search
+    print(re.match("Expresiones Regulares", my_string))
 
-search = re.search("lección", my_string, re.I)
-print(search)
-start, end = search.span()
-print(my_string[start:end])
+    # search
+    search = re.search("lección", my_string, re.I)
+    print(search)
+    if search:
+        start, end = search.span()
+        print(my_string[start:end])
 
-# findall
+    # findall
+    findall = re.findall("lección", my_string, re.I)
+    print(findall)
 
-findall = re.findall("lección", my_string, re.I)
-print(findall)
+    # split
+    print(re.split(":", my_string))
 
-# split
+    # sub
+    print(re.sub("[l|L]ección", "LECCIÓN", my_string))
+    print(re.sub("Expresiones Regulares", "RegEx", my_string))
 
-print(re.split(":", my_string))
+    # Regular Expressions Patterns
+    pattern = r"[lL]ección"
+    print(re.findall(pattern, my_string))
 
-# sub
+    pattern = r"[lL]ección|Expresiones"
+    print(re.findall(pattern, my_string))
 
-print(re.sub("[l|L]ección", "LECCIÓN", my_string))
-print(re.sub("Expresiones Regulares", "RegEx", my_string))
+    pattern = r"[0-9]"
+    print(re.findall(pattern, my_string))
+    print(re.search(pattern, my_string))
 
-### Regular Expressions Patterns ###
+    pattern = r"\d"
+    print(re.findall(pattern, my_string))
 
-# Para aprender y validar expresiones regulares: https://regex101.com
+    pattern = r"\D"
+    print(re.findall(pattern, my_string))
 
-pattern = r"[lL]ección"
-print(re.findall(pattern, my_string))
+    pattern = r"[l].*"
+    print(re.findall(pattern, my_string))
 
-pattern = r"[lL]ección|Expresiones"
-print(re.findall(pattern, my_string))
+    email = "mouredev@mouredev.com"
+    pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z-.]+$"
+    print(re.match(pattern, email))
+    print(re.search(pattern, email))
+    print(re.findall(pattern, email))
 
-pattern = r"[0-9]"
-print(re.findall(pattern, my_string))
-print(re.search(pattern, my_string))
+    email = "mouredev@mouredev.com.mx"
+    print(re.findall(pattern, email))
 
-pattern = r"\d"
-print(re.findall(pattern, my_string))
 
-pattern = r"\D"
-print(re.findall(pattern, my_string))
-
-pattern = r"[l].*"
-print(re.findall(pattern, my_string))
-
-email = "mouredev@mouredev.com"
-pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z-.]+$"
-print(re.match(pattern, email))
-print(re.search(pattern, email))
-print(re.findall(pattern, email))
-
-email = "mouredev@mouredev.com.mx"
-print(re.findall(pattern, email))
+if __name__ == "__main__":
+    demo_regular_expressions()

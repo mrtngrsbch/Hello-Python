@@ -13,7 +13,21 @@ cada impresión), sustituyendo los siguientes:
 """
 
 
-def fizzbuzz():
+"""
+Clase 02 — Challenges (retos de programación)
+
+Propósito pedagógico:
+- Resolver problemas comunes de programación.
+- Practicar lógica y estructuras de control en Python.
+
+Cómo ejecutar:
+- ../.venv/bin/python Hello-Python/Intermediate/02_challenges.py
+"""
+
+from __future__ import annotations
+
+
+def fizzbuzz() -> None:
     for index in range(1, 101):
         if index % 3 == 0 and index % 5 == 0:
             print("fizzbuzz")
@@ -25,39 +39,13 @@ def fizzbuzz():
             print(index)
 
 
-fizzbuzz()
-
-"""
-¿ES UN ANAGRAMA?
-Escribe una función que reciba dos palabras (String) y retorne
-verdadero o falso (Bool) según sean o no anagramas.
-- Un Anagrama consiste en formar una palabra reordenando TODAS
-  las letras de otra palabra inicial.
-- NO hace falta comprobar que ambas palabras existan.
-- Dos palabras exactamente iguales no son anagrama.
-"""
-
-
-def is_anagram(word_one, word_two):
+def is_anagram(word_one: str, word_two: str) -> bool:
     if word_one.lower() == word_two.lower():
         return False
     return sorted(word_one.lower()) == sorted(word_two.lower())
 
 
-print(is_anagram("Amor", "Roma"))
-
-"""
-LA SUCESIÓN DE FIBONACCI
-Escribe un programa que imprima los 50 primeros números de la sucesión
-de Fibonacci empezando en 0.
-- La serie Fibonacci se compone por una sucesión de números en
-  la que el siguiente siempre es la suma de los dos anteriores.
-  0, 1, 1, 2, 3, 5, 8, 13...
-"""
-
-
-def fibonacci():
-
+def fibonacci() -> None:
     prev = 0
     next = 1
 
@@ -68,43 +56,19 @@ def fibonacci():
         next = fib
 
 
-fibonacci()
-
-"""
-¿ES UN NÚMERO PRIMO?
-Escribe un programa que se encargue de comprobar si un número es o no primo.
-Hecho esto, imprime los números primos entre 1 y 100.
-"""
-
-
-def is_prime():
-
+def is_prime() -> None:
     for number in range(1, 101):
-
         if number >= 2:
-
             is_divisible = False
-
             for index in range(2, number):
                 if number % index == 0:
                     is_divisible = True
                     break
-
             if not is_divisible:
                 print(number)
 
 
-is_prime()
-
-"""
-INVIRTIENDO CADENAS
-Crea un programa que invierta el orden de una cadena de texto
-sin usar funciones propias del lenguaje que lo hagan de forma automática.
-- Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
-"""
-
-
-def reverse(text):
+def reverse(text: str) -> str:
     text_len = len(text)
     reversed_text = ""
     for index in range(0, text_len):
@@ -112,4 +76,9 @@ def reverse(text):
     return reversed_text
 
 
-print(reverse("Hola mundo"))
+if __name__ == "__main__":
+    fizzbuzz()
+    print(is_anagram("Amor", "Roma"))
+    fibonacci()
+    is_prime()
+    print(reverse("Hola mundo"))
