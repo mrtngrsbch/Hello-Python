@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 08**
+
 # Clase 08 — Condicionales (tomar decisiones)
 
 ## Apertura narrativa
@@ -55,3 +58,7 @@ if s == "Hola":
 
 ## Siguiente paso
 - Clase 09: bucles (`while`, `for`, `break`, `continue`, `else`).
+
+---
+
+**⬅️ [Anterior: Clase 07 - Diccionarios](CLASE_07.md) | ⏭️ [Siguiente: Clase 09 - Bucles](CLASE_09.md) | [🏠 Volver al Índice](../../HelloPython.md)**

@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 01**
+
 # Clase 01 — List Comprehension (Transformaciones elegantes)
 
 ## Apertura narrativa
@@ -81,3 +84,7 @@ print("Dict comprehension:", cuadrados_dict)
 
 ## Siguiente paso
 - Clase 02: Challenges para practicar todo lo aprendido con ejercicios integrados.
+
+---
+
+**⬅️ [Anterior: Clase 00 - Fechas](CLASE_00_DATES.md) | ⏭️ [Siguiente: Clase 02 - Retos Prácticos](CLASE_02_CHALLENGES.md) | [🏠 Volver al Índice](../HelloPython.md)**

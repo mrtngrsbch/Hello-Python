@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 04**
+
 # Clase 04 — Higher Order Functions (Funciones que operan sobre funciones)
 
 ## Apertura narrativa
@@ -132,3 +135,7 @@ print("Ordenados por edad:", ordenados_por_edad)
 
 ## Siguiente paso
 - Clase 05: Error Types para manejar excepciones con elegancia y precisión.
+
+---
+
+**⬅️ [Anterior: Clase 03 - Lambdas](CLASE_03_LAMBDAS.md) | ⏭️ [Siguiente: Clase 05 - Error Types](CLASE_05_ERROR_TYPES.md) | [🏠 Volver al Índice](../HelloPython.md)**

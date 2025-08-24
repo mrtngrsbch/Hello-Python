@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 02**
+
 # Clase 02 — Variables y Strings (Transformaciones de texto)
 
 ## Apertura narrativa
@@ -58,3 +61,7 @@ print("Con guiones bajos:", con_guiones)
 
 ## Siguiente paso
 - Clase 03: operadores (aritméticos, comparación, lógicos). Allí verás el cheatsheet completo con ejemplos y trampas comunes.
+
+---
+
+**⬅️ [Anterior: Clase 01 - Hola Mundo](CLASE_01.md) | ⏭️ [Siguiente: Clase 03 - Operadores](CLASE_03.md) | [🏠 Volver al Índice](../../HelloPython.md)**

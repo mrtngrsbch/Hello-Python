@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 05**
+
 # Clase 05 — Error Types (Manejo elegante de excepciones)
 
 ## Apertura narrativa
@@ -170,3 +173,7 @@ if __name__ == "__main__":
 
 ## Siguiente paso
 - Clase 06: File Handling para trabajar con archivos de forma segura y eficiente.
+
+---
+
+**⬅️ [Anterior: Clase 04 - Funciones de Orden Superior](CLASE_04_HIGHER_ORDER.md) | ⏭️ [Siguiente: Clase 06 - Manejo de Archivos](CLASE_06_FILE_HANDLING.md) | [🏠 Volver al Índice](../HelloPython.md)**

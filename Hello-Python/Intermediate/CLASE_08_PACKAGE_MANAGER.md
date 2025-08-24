@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 08**
+
 # Clase 08 — Python Package Manager (Gestión profesional de dependencias)
 
 ## Apertura narrativa
@@ -248,4 +251,8 @@ if __name__ == "__main__":
 - Preparas el terreno para proyectos de producción real.
 
 ## Siguiente paso
-- Has completado el nivel intermedio. ¡Ahora eres capaz de crear proyectos Python profesionales! Considera explorar temas avanzados como testing, deployment o frameworks web.
+- ¡Felicidades! Has completado el nivel intermedio. Ahora estás listo para explorar el backend con FastAPI y bases de datos.
+
+---
+
+**⬅️ [Anterior: Clase 07 - Expresiones Regulares](CLASE_07_REGEX.md) | [🏠 Volver al Índice](../HelloPython.md) | ⚡ [Siguiente: Nivel Backend](../Backend/)**

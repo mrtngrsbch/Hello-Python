@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 09**
+
 # Clase 09 — Bucles (repetición controlada)
 
 ## Apertura narrativa
@@ -67,3 +70,7 @@ else:
 
 ## Siguiente paso
 - Clase 10: funciones (organizar y reutilizar lógica).
+
+---
+
+**⬅️ [Anterior: Clase 08 - Condicionales](CLASE_08.md) | ⏭️ [Siguiente: Clase 10 - Funciones](CLASE_10.md) | [🏠 Volver al Índice](../../HelloPython.md)**

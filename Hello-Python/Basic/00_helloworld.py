@@ -8,7 +8,7 @@ Propósito:
 - Practicar un pequeño bloque de entrada/salida (opcional)
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/00_helloworld.py
+- python3 Hello-Python/Basic/00_helloworld.py
 
 Nota: hay un bloque de práctica con input comentado para no bloquear pruebas. Lee el flujo y luego descoméntalo si quieres interactuar.
 """

@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 00**
+
 # Clase 00 — Manejo de Fechas y Tiempo
 
 ## Apertura narrativa
@@ -88,3 +91,7 @@ print("Día de la semana:", now.strftime("%A"))
 
 ## Siguiente paso
 - Clase 01: List Comprehension para transformar colecciones con elegancia y eficiencia.
+
+---
+
+**⏭️ [Siguiente: Clase 01 - List Comprehension](CLASE_01_LIST_COMPREHENSION.md) | [🏠 Volver al Índice](../HelloPython.md)**

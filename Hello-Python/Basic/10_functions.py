@@ -7,7 +7,7 @@ Propósito pedagógico:
 - Usar *args para número variable de argumentos.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/10_functions.py
+- python3 Hello-Python/Basic/10_functions.py
 """
 
 from __future__ import annotations

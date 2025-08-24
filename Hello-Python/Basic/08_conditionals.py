@@ -7,7 +7,7 @@ Propósito pedagógico:
 - Evitar errores típicos: ramas inalcanzables, comparaciones mal planteadas, truthiness.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/08_conditionals.py
+- python3 Hello-Python/Basic/08_conditionals.py
 """
 
 from __future__ import annotations

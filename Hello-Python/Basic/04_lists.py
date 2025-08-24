@@ -10,6 +10,9 @@ Propósito pedagógico:
 Cómo usar este archivo:
 - Ejecuta el script para ver pequeñas demostraciones impresas en consola.
 - Usa este archivo como referencia rápida y como base para tus propios experimentos.
+
+Cómo ejecutar:
+- python3 Hello-Python/Basic/04_lists.py
 """
 
 # Pequeñas demostraciones (cada una es corta y enfocada)

@@ -7,7 +7,7 @@ Propósito:
 - Mantener el código legible con nombres descriptivos
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/01_variables.py
+- python3 Hello-Python/Basic/01_variables.py
 
 Nota: Hay un bloque de práctica con input comentado para no bloquear pruebas.
 """

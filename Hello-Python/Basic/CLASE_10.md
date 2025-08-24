@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 10**
+
 # Clase 10 — Funciones (organizar y reutilizar lógica)
 
 ## Apertura narrativa
@@ -80,3 +83,7 @@ def dividir(a: float, b: float) -> float:
 
 ## Siguiente paso
 - Clase 11: clases y objetos (modela entidades con comportamiento).
+
+---
+
+**⬅️ [Anterior: Clase 09 - Bucles](CLASE_09.md) | ⏭️ [Siguiente: Clase 11 - Clases](CLASE_11.md) | [🏠 Volver al Índice](../../HelloPython.md)**

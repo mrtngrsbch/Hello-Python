@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar su uso en operaciones simples y como retornos de funciones.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/03_lambdas.py
+- python3 Hello-Python/Intermediate/03_lambdas.py
 """
 
 from __future__ import annotations

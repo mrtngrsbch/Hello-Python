@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 00**
+
 # Clase 00 — Instalación y Configuración (macOS)
 
 ## Objetivos
@@ -36,3 +39,7 @@
 
 - Si `python` apunta a 2.x, usa `python3` o ajusta alias en tu shell.
 - Si no puedes activar el entorno, verifica que `.venv/bin/activate` existe.
+
+---
+
+**⏭️ [Siguiente: Clase 01 - Variables](CLASE_01.md) | [🏠 Volver al Índice](../../HelloPython.md)**

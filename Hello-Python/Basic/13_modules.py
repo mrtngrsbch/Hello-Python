@@ -11,7 +11,7 @@ Propósito pedagógico:
 - Practicar con un módulo propio (`my_module`) y con la librería estándar (`math`).
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/13_modules.py
+- python3 Hello-Python/Basic/13_modules.py
 - Abre `Basic/my_module.py` para ver las funciones importadas.
 """
 

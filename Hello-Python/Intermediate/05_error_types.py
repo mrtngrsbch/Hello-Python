@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar la depuración y manejo de errores.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/05_error_types.py
+- python3 Hello-Python/Intermediate/05_error_types.py
 """
 
 from __future__ import annotations

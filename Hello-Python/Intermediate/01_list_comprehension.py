@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar transformaciones y operaciones básicas en listas.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/01_list_comprehension.py
+- python3 Hello-Python/Intermediate/01_list_comprehension.py
 """
 
 from __future__ import annotations

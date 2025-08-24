@@ -7,7 +7,7 @@ Propósito pedagógico:
 - Distinguir errores previstos vs. errores de programación.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/12_exceptions.py
+- python3 Hello-Python/Basic/12_exceptions.py
 """
 
 from __future__ import annotations

@@ -1,4 +1,7 @@
-# Clase 03 — Lambdas (Funciones anónimas)
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 03**
+
+# Clase 03 — Lambdas: Funciones Anónimas y Elegantes
 
 ## Apertura narrativa
 Las lambdas son funciones express: pequeñas, sin nombre, perfectas para tareas puntuales. Como un café rápido en vez de una cena formal: cuando necesitas una función simple sin la ceremonia de `def`, las lambdas te dan poder inmediato.
@@ -97,4 +100,8 @@ print("Nombre anónimo:", get_name({}))
 - Sabes cuándo usar lambda vs funciones nombradas.
 
 ## Siguiente paso
-- Clase 04: Higher Order Functions para funciones que operan sobre otras funciones.
+- Clase 04: funciones de orden superior (map, filter, reduce, decoradores).
+
+---
+
+**⬅️ [Anterior: Clase 02 - Retos Prácticos](CLASE_02_CHALLENGES.md) | ⏭️ [Siguiente: Clase 04 - Funciones de Orden Superior](CLASE_04_HIGHER_ORDER.md) | [🏠 Volver al Índice](../HelloPython.md)**

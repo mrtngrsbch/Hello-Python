@@ -1,4 +1,7 @@
-# Clase 02 — Challenges (Integración de conceptos)
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 02**
+
+# Clase 02 — Retos Prácticos: Integración Total
 
 ## Apertura narrativa
 Los challenges son tu campo de entrenamiento real. Aquí combinas todo lo aprendido en contextos prácticos: desde analizar logs hasta procesar datos de usuarios. Cada challenge es una mini-aplicación que resuelve un problema del mundo real.
@@ -116,4 +119,8 @@ if __name__ == "__main__":
 - Sabes estructurar soluciones modulares y reutilizables.
 
 ## Siguiente paso
-- Clase 03: Lambdas para crear funciones pequeñas y anónimas.
+- Clase 03: funciones lambda para crear funciones rápidas y concisas.
+
+---
+
+**⬅️ [Anterior: Clase 01 - List Comprehension](CLASE_01_LIST_COMPREHENSION.md) | ⏭️ [Siguiente: Clase 03 - Lambdas](CLASE_03_LAMBDAS.md) | [🏠 Volver al Índice](../HelloPython.md)**

@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 12**
+
 # Clase 12 — Excepciones (hacer tu código robusto)
 
 ## Apertura narrativa
@@ -67,3 +70,7 @@ except Exception as e:
 
 ## Siguiente paso
 - Clase 13: módulos e imports (organizar tu proyecto y reutilizar código).
+
+---
+
+**⬅️ [Anterior: Clase 11 - Clases](CLASE_11.md) | ⏭️ [Siguiente: Clase 13 - Módulos](CLASE_13.md) | [🏠 Volver al Índice](../../HelloPython.md)**

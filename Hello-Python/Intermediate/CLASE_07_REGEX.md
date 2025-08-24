@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 07**
+
 # Clase 07 — Regular Expressions (Patrones de búsqueda y validación)
 
 ## Apertura narrativa
@@ -201,3 +204,7 @@ if __name__ == "__main__":
 
 ## Siguiente paso
 - Clase 08: Python Package Manager para gestionar dependencias y crear entornos reproducibles.
+
+---
+
+**⬅️ [Anterior: Clase 06 - Manejo de Archivos](CLASE_06_FILE_HANDLING.md) | ⏭️ [Siguiente: Clase 08 - Gestor de Paquetes](CLASE_08_PACKAGE_MANAGER.md) | [🏠 Volver al Índice](../HelloPython.md)**

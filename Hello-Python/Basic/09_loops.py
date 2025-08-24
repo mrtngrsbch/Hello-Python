@@ -7,7 +7,7 @@ Propósito pedagógico:
 - Iterar sobre `list`, `tuple`, `set`, `dict` y sus vistas.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/09_loops.py
+- python3 Hello-Python/Basic/09_loops.py
 """
 
 from __future__ import annotations

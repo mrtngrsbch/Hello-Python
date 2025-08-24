@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 07**
+
 # Clase 07 — Diccionarios (pares clave‑valor)
 
 ## Apertura narrativa
@@ -64,3 +67,7 @@ print(copia)
 
 ## Siguiente paso
 - Clase 08: condicionales (`if`/`elif`/`else`) para tomar decisiones.
+
+---
+
+**⬅️ [Anterior: Clase 06 - Sets](CLASE_06.md) | ⏭️ [Siguiente: Clase 08 - Condicionales](CLASE_08.md) | [🏠 Volver al Índice](../../HelloPython.md)**

@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar su uso con funciones integradas como map, filter y reduce.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/04_higher_order_functions.py
+- python3 Hello-Python/Intermediate/04_higher_order_functions.py
 """
 
 from __future__ import annotations

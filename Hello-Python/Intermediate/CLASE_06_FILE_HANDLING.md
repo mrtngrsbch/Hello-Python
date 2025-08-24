@@ -1,4 +1,7 @@
-# Clase 06 — File Handling (Manejo seguro de archivos)
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../HelloPython.md) > [Intermedio](.) > Clase 06**
+
+# Clase 06 — Manejo de Archivos: Persistir Datos con Elegancia
 
 ## Apertura narrativa
 Los archivos son la memoria persistente de tus programas. Dominar su manejo es como ser un archivista experto: sabes guardar, organizar, leer y manipular información de forma segura y eficiente.
@@ -188,4 +191,8 @@ if __name__ == "__main__":
 - Sabes procesar archivos grandes sin problemas de memoria.
 
 ## Siguiente paso
-- Clase 07: Regular Expressions para patrones de búsqueda y validación avanzada.
+- Clase 07: expresiones regulares para validar y extraer patrones de texto.
+
+---
+
+**⬅️ [Anterior: Clase 05 - Tipos de Errores](CLASE_05_ERROR_TYPES.md) | ⏭️ [Siguiente: Clase 07 - Expresiones Regulares](CLASE_07_REGEX.md) | [🏠 Volver al Índice](../HelloPython.md)**

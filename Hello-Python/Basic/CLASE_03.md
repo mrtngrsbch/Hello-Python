@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 03**
+
 # Clase 03 — Operadores (Aritméticos, Comparación y Lógicos)
 
 ## Apertura narrativa
@@ -62,3 +65,7 @@ print("¿Descuento aplica?", aplica_descuento)
 
 ## Siguiente paso
 - Condicionales: usarás operadores para tomar decisiones (`if`/`elif`/`else`) de manera estructurada.
+
+---
+
+**⬅️ [Anterior: Clase 02 - Variables y Strings](CLASE_02.md) | ⏭️ [Siguiente: Clase 04 - Listas](CLASE_04.md) | [🏠 Volver al Índice](../../HelloPython.md)**

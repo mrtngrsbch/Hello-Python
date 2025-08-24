@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 06**
+
 # Clase 06 — Sets (colecciones sin duplicados)
 
 ## Apertura narrativa
@@ -64,3 +67,7 @@ print(2 in unicos)         # pertenencia
 
 ## Siguiente paso
 - Clase 07: diccionarios (`dict`), pares clave-valor muy versátiles.
+
+---
+
+**⬅️ [Anterior: Clase 05 - Tuplas](CLASE_05.md) | ⏭️ [Siguiente: Clase 07 - Diccionarios](CLASE_07.md) | [🏠 Volver al Índice](../../HelloPython.md)**

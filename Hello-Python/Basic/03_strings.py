@@ -8,7 +8,7 @@ Propósito:
 - Métodos útiles: capitalize, upper, count, isnumeric, lower, startswith
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/03_strings.py
+- python3 Hello-Python/Basic/03_strings.py
 
 Nota: hay un bloque de práctica con input comentado para no bloquear pruebas.
 """

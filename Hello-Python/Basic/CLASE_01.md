@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 01**
+
 # Clase 01 — Hola Mundo e I/O
 
 ## Apertura narrativa
@@ -55,3 +58,7 @@ Sugerencia: si quieres, limpia espacios laterales con `.strip()` al leer.
 
 ## Siguiente paso
 - Clase 02: variables y strings para transformar y preparar texto con seguridad.
+
+---
+
+**⬅️ [Anterior: Clase 00 - Instalación](CLASE_00.md) | ⏭️ [Siguiente: Clase 02 - Variables](CLASE_02.md) | [🏠 Volver al Índice](../../HelloPython.md)**

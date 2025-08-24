@@ -7,9 +7,8 @@ Propósito pedagógico:
 - Ver cómo “modificar” una tupla convirtiéndola temporalmente en lista.
 - Evitar errores típicos: TypeError al intentar asignar/borrar elementos.
 
-Cómo usar este archivo:
-- Ejecuta el script para ver pequeñas demostraciones imprimibles.
-- Úsalo como referencia rápida y base para experimentar.
+Cómo ejecutar:
+- python3 Hello-Python/Basic/05_tuples.py
 """
 
 # Pequeñas demostraciones

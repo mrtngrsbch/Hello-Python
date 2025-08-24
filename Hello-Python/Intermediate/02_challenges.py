@@ -21,7 +21,7 @@ Propósito pedagógico:
 - Practicar lógica y estructuras de control en Python.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/02_challenges.py
+- python3 Hello-Python/Intermediate/02_challenges.py
 """
 
 from __future__ import annotations

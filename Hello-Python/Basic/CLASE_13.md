@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 13**
+
 # Clase 13 — Módulos e Imports (organización y reutilización)
 
 ## Apertura narrativa
@@ -56,3 +59,7 @@ print(m.pi)
 
 ## Siguiente paso
 - Consolidar: escribe utilidades propias y crea tests mínimos para validarlas.
+
+---
+
+**⬅️ [Anterior: Clase 12 - Excepciones](CLASE_12.md) | [🏠 Volver al Índice](../../HelloPython.md)**

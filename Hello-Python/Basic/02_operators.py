@@ -8,7 +8,7 @@ Propósito:
 - Casos mixtos con strings (concatenación y repetición)
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Basic/02_operators.py
+- python3 Hello-Python/Basic/02_operators.py
 
 Notas:
 - La división por cero lanza ZeroDivisionError.

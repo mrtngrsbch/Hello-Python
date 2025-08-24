@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar operaciones básicas con objetos datetime, date, time y timedelta.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/00_dates.py
+- python3 Hello-Python/Intermediate/00_dates.py
 """
 
 from __future__ import annotations

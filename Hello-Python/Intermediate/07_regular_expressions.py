@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar la búsqueda y manipulación de patrones en texto.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/07_regular_expressions.py
+- python3 Hello-Python/Intermediate/07_regular_expressions.py
 """
 
 from __future__ import annotations

@@ -6,7 +6,7 @@ Propósito pedagógico:
 - Practicar con archivos .txt, .json y .csv.
 
 Cómo ejecutar:
-- ../.venv/bin/python Hello-Python/Intermediate/06_file_handling.py
+- python3 Hello-Python/Intermediate/06_file_handling.py
 """
 
 from __future__ import annotations

@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 05**
+
 # Clase 05 — Tuplas (colecciones ordenadas e inmutables)
 
 ## Apertura narrativa
@@ -71,3 +74,7 @@ print(person2)
 
 ## Siguiente paso
 - Clase 06: `set` (colecciones desordenadas, sin duplicados).
+
+---
+
+**⬅️ [Anterior: Clase 04 - Listas](CLASE_04.md) | ⏭️ [Siguiente: Clase 06 - Sets](CLASE_06.md) | [🏠 Volver al Índice](../../HelloPython.md)**

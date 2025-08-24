@@ -1,3 +1,6 @@
+<!-- NAVEGACIÓN -->
+**📍 [Inicio](../../HelloPython.md) > [Fundamentos](.) > Clase 11**
+
 # Clase 11 — Clases y Objetos (modelado de entidades)
 
 ## Apertura narrativa
@@ -65,3 +68,7 @@ print(p1.nombre_completo())  # también refleja el alias
 
 ## Siguiente paso
 - Clase 12: manejo de excepciones (código robusto ante errores).
+
+---
+
+**⬅️ [Anterior: Clase 10 - Funciones](CLASE_10.md) | ⏭️ [Siguiente: Clase 12 - Excepciones](CLASE_12.md) | [🏠 Volver al Índice](../../HelloPython.md)**
