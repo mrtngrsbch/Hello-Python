@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello-Python/HelloPython.md",
-                "mode": "source",
+                "file": "Hello-Python/Basic/CLASE_08.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HelloPython"
+              "title": "CLASE_08"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello-Python/HelloPython.md",
+                "file": "Hello-Python/HelloPython copia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de HelloPython"
+              "title": "Enlaces entrantes de HelloPython copia"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello-Python/HelloPython.md",
+                "file": "Hello-Python/HelloPython copia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de HelloPython"
+              "title": "Enlaces salientes de HelloPython copia"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello-Python/HelloPython.md",
+                "file": "Hello-Python/HelloPython copia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de HelloPython"
+              "title": "Esquema de HelloPython copia"
             }
           }
         ]
@@ -171,7 +171,14 @@
   },
   "active": "fb415350e3228486",
   "lastOpenFiles": [
-    "Hello-Python/Basic/CLASE_00.md",
-    "Hello-Python/HelloPython.md"
+    "Hello-Python/HelloPython.md",
+    "Hello-Python/Basic/CLASE_13.md",
+    "Hello-Python/_TEMPLATE_CLASE.md",
+    "keyboard-shortcuts-macos.pdf",
+    "Hello-Python/archive/INDICE_ESTUDIO_PYTHON_PRINCIPIANTE 1.md",
+    "Hello-Python/archive/HelloPython copia 1.md",
+    "Hello-Python/archive/HelloPython copia.md",
+    "Hello-Python/archive/HelloPython_backup 1.md",
+    "Hello-Python/Basic/CLASE_00.md"
   ]
 }

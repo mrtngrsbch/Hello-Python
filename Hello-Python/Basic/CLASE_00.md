@@ -31,9 +31,9 @@
 
 ## Checklist
 
-- [ ] .venv activado (el prompt muestra el nombre del entorno)
-- [ ] `python --version` muestra 3.11+
-- [ ] Tests pasan en verde
+- [x] .venv activado (el prompt muestra el nombre del entorno)
+- [x] `python --version` muestra 3.11+
+- [x] Tests pasan en verde
 
 ## Problemas comunes y solución (macOS)
 
