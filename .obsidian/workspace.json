@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello-Python/Basic/CLASE_08.md",
+                "file": "Hello-Python/HelloPython.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLASE_08"
+              "title": "HelloPython"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "ba2df3a9a342e9a5",
@@ -171,14 +171,16 @@
   },
   "active": "fb415350e3228486",
   "lastOpenFiles": [
-    "Hello-Python/HelloPython.md",
-    "Hello-Python/Basic/CLASE_13.md",
-    "Hello-Python/_TEMPLATE_CLASE.md",
-    "keyboard-shortcuts-macos.pdf",
+    "Hello-Python/archive/HelloPython_backup 1.md",
     "Hello-Python/archive/INDICE_ESTUDIO_PYTHON_PRINCIPIANTE 1.md",
+    "Hello-Python/archive/INDICE_ESTUDIO_PYTHON_PRINCIPIANTE.md",
+    "Hello-Python/HelloPython.md",
+    "Hello-Python/archive/_TEMPLATE_CLASE.md",
+    "Hello-Python/Basic/CLASE_08.md",
+    "Hello-Python/Basic/CLASE_13.md",
+    "keyboard-shortcuts-macos.pdf",
     "Hello-Python/archive/HelloPython copia 1.md",
     "Hello-Python/archive/HelloPython copia.md",
-    "Hello-Python/archive/HelloPython_backup 1.md",
     "Hello-Python/Basic/CLASE_00.md"
   ]
 }
