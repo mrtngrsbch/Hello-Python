@@ -4,15 +4,18 @@
 # Clase 06 — Manejo de Archivos: Persistir Datos con Elegancia
 
 ## Apertura narrativa
+
 Los archivos son la memoria persistente de tus programas. Dominar su manejo es como ser un archivista experto: sabes guardar, organizar, leer y manipular información de forma segura y eficiente.
 
 ## Por qué te importa
+
 - Persistes datos entre ejecuciones del programa.
 - Trabajas con diferentes formatos (texto, JSON, CSV).
 - Manejas archivos grandes sin cargar todo en memoria.
 - Creas pipelines de procesamiento de datos reales.
 
 ## Demostración guiada
+
 ```python
 import json
 import csv
@@ -133,6 +136,7 @@ if __name__ == "__main__":
 ```
 
 ## Micro-kata (15-18 min)
+
 - **Ejercicio 1**: Crea un sistema de backup que copie archivos importantes.
 - **Ejercicio 2**: Implementa un procesador de logs que extraiga errores específicos.
 - **Ejercicio 3**: Desarrolla un conversor entre JSON, CSV y texto plano.
@@ -140,18 +144,22 @@ if __name__ == "__main__":
 - **Ejercicio 5**: Implementa un sistema de logs rotativos por tamaño.
 
 ## Cheatsheet de file handling
+
 - **Modos de apertura**:
   - `'r'`: lectura (por defecto)
   - `'w'`: escritura (sobrescribe)
   - `'a'`: append (añadir)
   - `'x'`: crear (falla si existe)
   - `'b'`: binario (rb, wb)
+
 - **Context managers**:
+  
   ```python
   with open('archivo.txt', 'r') as f:
       contenido = f.read()
   # Se cierra automáticamente
   ```
+
 - **Métodos útiles**:
   - `.read()`: todo el contenido
   - `.readline()`: una línea
@@ -167,6 +175,7 @@ if __name__ == "__main__":
   - CSV: `csv.writer()`, `csv.DictReader()`
 
 ## Errores frecuentes
+
 - No usar `with open()` y olvidar cerrar archivos.
 - Usar encoding incorrecto (especialmente UTF-8).
 - No manejar excepciones de archivos (FileNotFoundError, PermissionError).
@@ -175,22 +184,26 @@ if __name__ == "__main__":
 - No crear directorios padre antes de escribir archivos.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/06_file_handling.py` para ver las demos.
 - Crea archivos de prueba con diferentes formatos.
 - Practica con archivos reales de tu sistema.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/06_file_handling.py`
 - Módulos: `pathlib`, `shutil`, `os`, `tempfile`
 - Herramientas: `pandas` para archivos grandes
 - Seguridad: siempre validar rutas de entrada
 
 ## Qué te llevas hoy
+
 - Dominas el manejo seguro de archivos en diferentes formatos.
 - Puedes crear sistemas de persistencia robustos.
 - Sabes procesar archivos grandes sin problemas de memoria.
 
 ## Siguiente paso
+
 - Clase 07: expresiones regulares para validar y extraer patrones de texto.
 
 ---

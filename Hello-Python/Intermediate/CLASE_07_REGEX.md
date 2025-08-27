@@ -4,15 +4,18 @@
 # Clase 07 — Regular Expressions (Patrones de búsqueda y validación)
 
 ## Apertura narrativa
+
 Las expresiones regulares son como lenguaje mágico para el texto: describen patrones complejos con símbolos elegantes. Desde validar emails hasta extraer datos de logs, regex te da poder de búsqueda y transformación sobre cualquier texto.
 
 ## Por qué te importa
+
 - Validas formatos complejos (emails, teléfonos, URLs) con precisión.
 - Extraes información específica de grandes volúmenes de texto.
 - Limpias y normalizas datos automáticamente.
 - Dominas una herramienta universal presente en casi todos los lenguajes.
 
 ## Demostración guiada
+
 ```python
 import re
 from typing import List, Optional
@@ -149,6 +152,7 @@ if __name__ == "__main__":
 - **Ejercicio 5**: Implementa un extractor de precios de texto.
 
 ## Cheatsheet de regex
+
 - **Metacaracteres básicos**:
   - `.`: cualquier carácter excepto nueva línea
   - `^`: inicio de línea
@@ -180,6 +184,7 @@ if __name__ == "__main__":
   - `re.split()`: divide
 
 ## Errores frecuentes
+
 - Patrones demasiado permisivos o restrictivos.
 - No escapar caracteres especiales (`.` → `\.`).
 - Olvidar los límites (`^` y `$`) cuando se necesita coincidencia exacta.
@@ -187,22 +192,26 @@ if __name__ == "__main__":
 - No considerar el rendimiento con patrones complejos.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/07_regular_expressions.py` para ver las demos.
 - Prueba tus patrones en https://regex101.com/
 - Crea un banco de pruebas para tus validadores.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/07_regular_expressions.py`
 - Herramientas online: regex101.com, regexr.com
 - Librerías: `regex` (regex avanzado), `re` (built-in)
 - Recursos: Regular Expressions Cookbook
 
 ## Qué te llevas hoy
+
 - Dominas patrones complejos de búsqueda y validación.
 - Puedes extraer y transformar texto con precisión.
 - Tienes una herramienta universal para cualquier lenguaje.
 
 ## Siguiente paso
+
 - Clase 08: Python Package Manager para gestionar dependencias y crear entornos reproducibles.
 
 ---

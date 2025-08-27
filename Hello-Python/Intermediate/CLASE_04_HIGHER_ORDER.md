@@ -4,15 +4,18 @@
 # Clase 04 — Higher Order Functions (Funciones que operan sobre funciones)
 
 ## Apertura narrativa
+
 Las Higher Order Functions son como directores de orquesta: no tocan la música, pero dirigen a los músicos (funciones) para crear sinfonías complejas. Te permiten escribir código más genérico, reutilizable y funcional.
 
 ## Por qué te importa
+
 - Escribes código más genérico y reutilizable.
 - Dominas patrones funcionales avanzados.
 - Preparas el terreno para conceptos como decoradores y closures.
 - Mejoras la composición y abstracción de tu código.
 
 ## Demostración guiada
+
 ```python
 from functools import reduce
 from typing import Callable, List, Any
@@ -86,6 +89,7 @@ print("Ordenados por edad:", ordenados_por_edad)
 ```
 
 ## Micro-kata (15-18 min)
+
 - **Ejercicio 1**: Crea una función `aplicar_si` que tome una lista y aplique una función solo si cumplen una condición.
 - **Ejercicio 2**: Implementa `pipe` que tome una lista de funciones y las aplique secuencialmente.
 - **Ejercicio 3**: Crea un decorador que cachee resultados de funciones costosas.
@@ -93,6 +97,7 @@ print("Ordenados por edad:", ordenados_por_edad)
 - **Ejercicio 5**: Implementa `aplicar_operaciones` que tome una lista de funciones y las aplique a un valor.
 
 ## Cheatsheet de Higher Order Functions
+
 - **Funciones incorporadas**:
   - `map(función, iterable)` → transforma elementos
   - `filter(función, iterable)` → filtra elementos
@@ -112,6 +117,7 @@ print("Ordenados por edad:", ordenados_por_edad)
   - Partial application: fijar algunos parámetros
 
 ## Errores frecuentes
+
 - No entender el orden de aplicación en composición.
 - Abusar de la complejidad y hacer el código ilegible.
 - Olvidar que las funciones son objetos de primera clase.
@@ -119,21 +125,25 @@ print("Ordenados por edad:", ordenados_por_edad)
 - Confundir `map`/`filter` con list comprehension.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/04_higher_order_functions.py` para ver las demos.
 - Compara diferentes enfoques para el mismo problema.
 - Practica creando tus propias funciones de orden superior.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/04_higher_order_functions.py`
 - Módulos: `functools` (reduce, partial, wraps)
 - Libro: "Functional Programming in Python"
 
 ## Qué te llevas hoy
+
 - Dominas funciones que operan sobre otras funciones.
 - Escribes código más genérico y reutilizable.
 - Preparas el terreno para patrones avanzados como decoradores.
 
 ## Siguiente paso
+
 - Clase 05: Error Types para manejar excepciones con elegancia y precisión.
 
 ---

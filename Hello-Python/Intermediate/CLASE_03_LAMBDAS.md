@@ -4,15 +4,18 @@
 # Clase 03 — Lambdas: Funciones Anónimas y Elegantes
 
 ## Apertura narrativa
+
 Las lambdas son funciones express: pequeñas, sin nombre, perfectas para tareas puntuales. Como un café rápido en vez de una cena formal: cuando necesitas una función simple sin la ceremonia de `def`, las lambdas te dan poder inmediato.
 
 ## Por qué te importa
+
 - Creas funciones simples al vuelo sin declararlas formalmente.
 - Perfectas para usar con `map()`, `filter()`, `sorted()` y funciones de orden superior.
 - Hacen tu código más conciso y funcional.
 - Ideal para transformaciones y filtros rápidos.
 
 ## Demostración guiada
+
 ```python
 # Lambda básica
 cuadrado = lambda x: x**2
@@ -56,6 +59,7 @@ print("Nombre anónimo:", get_name({}))
 ```
 
 ## Micro-kata (10-12 min)
+
 - **Ejercicio 1**: Crea una lambda que calcule el área de un círculo dado su radio.
 - **Ejercicio 2**: Usa lambda con `filter()` para obtener solo palabras con más de 3 letras.
 - **Ejercicio 3**: Ordena una lista de tuplas (nombre, edad) por edad descendente usando lambda.
@@ -63,6 +67,7 @@ print("Nombre anónimo:", get_name({}))
 - **Ejercicio 5**: Combina map y filter con lambdas para procesar datos complejos.
 
 ## Cheatsheet de lambdas
+
 - Sintaxis: `lambda parámetros: expresión`
 - Múltiples parámetros: `lambda x, y: x + y`
 - Condicionales: `lambda x: "verdadero" if condición else "falso"`
@@ -78,6 +83,7 @@ print("Nombre anónimo:", get_name({}))
   - Úsala para funciones simples, no complejas
 
 ## Errores frecuentes
+
 - Intentar usar múltiples líneas (lambdas solo permiten una expresión).
 - Abusar de la complejidad (si es muy compleja, usa def).
 - Olvidar que lambdas no tienen nombre (no son reutilizables fácilmente).
@@ -85,21 +91,25 @@ print("Nombre anónimo:", get_name({}))
 - Confundir el scope de las variables (cuidado con closures).
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/03_lambdas.py` para ver las demos.
 - Compara la legibilidad entre lambda y funciones normales.
 - Benchmark: mide la velocidad vs funciones definidas con def.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/03_lambdas.py`
 - Módulos relacionados: `functools`, `operator`
 - PEP 8: guía sobre cuándo usar lambdas vs funciones nombradas
 
 ## Qué te llevas hoy
+
 - Creas funciones anónimas para transformaciones rápidas.
 - Dominas el uso de lambdas con funciones de orden superior.
 - Sabes cuándo usar lambda vs funciones nombradas.
 
 ## Siguiente paso
+
 - Clase 04: funciones de orden superior (map, filter, reduce, decoradores).
 
 ---

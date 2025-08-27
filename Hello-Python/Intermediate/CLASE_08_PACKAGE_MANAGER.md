@@ -4,9 +4,11 @@
 # Clase 08 — Python Package Manager (Gestión profesional de dependencias)
 
 ## Apertura narrativa
+
 El gestor de paquetes es como el sistema nervioso de tu proyecto: conecta todas las piezas externas que necesitas. Dominar pip y los entornos virtuales te permite crear proyectos reproducibles y compartibles.
 
 ## Por qué te importa
+
 - Gestiona dependencias de forma profesional.
 - Crea entornos aislados para cada proyecto.
 - Comparte proyectos con requisitos exactos.
@@ -14,6 +16,7 @@ El gestor de paquetes es como el sistema nervioso de tu proyecto: conecta todas 
 - Trabaja con paquetes populares como numpy, pandas, requests.
 
 ## Demostración guiada
+
 ```python
 # Este archivo demuestra el uso de paquetes populares
 # Para ejecutar: primero instala los paquetes necesarios
@@ -192,6 +195,7 @@ if __name__ == "__main__":
 ```
 
 ## Micro-kata (12-15 min)
+
 - **Ejercicio 1**: Crea un proyecto con requirements.txt y setup.py.
 - **Ejercicio 2**: Investiga y usa 3 paquetes nuevos de PyPI.
 - **Ejercicio 3**: Crea un entorno virtual y instala tus dependencias.
@@ -199,6 +203,7 @@ if __name__ == "__main__":
 - **Ejercicio 5**: Automatiza la instalación con un script de setup.
 
 ## Cheatsheet de gestión de paquetes
+
 - **Comandos pip**:
   - `pip install paquete`: instalar
   - `pip install paquete==version`: versión específica
@@ -224,6 +229,7 @@ if __name__ == "__main__":
   - Usar pip-tools o poetry para gestión avanzada
 
 ## Errores frecuentes
+
 - Instalar paquetes globalmente sin entorno virtual.
 - No especificar versiones exactas en producción.
 - Confundir pip con pip3 (problemas de versión).
@@ -232,12 +238,14 @@ if __name__ == "__main__":
 - No leer documentación de paquetes antes de usar.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/08_python_package_manager.py` para ver las demos.
 - Crea un entorno virtual y practica la instalación.
 - Explora PyPI buscando paquetes interesantes.
 - Intenta crear tu primer paquete.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/08_python_package_manager.py`
 - PyPI: https://pypi.org/
 - Documentación: https://packaging.python.org/
@@ -245,12 +253,14 @@ if __name__ == "__main__":
 - Tutorial: "Packaging Python Projects" en docs.python.org
 
 ## Qué te llevas hoy
+
 - Dominas la gestión profesional de dependencias.
 - Puedes crear proyectos reproducibles y compartibles.
 - Sabes instalar y usar paquetes populares de la comunidad.
 - Preparas el terreno para proyectos de producción real.
 
 ## Siguiente paso
+
 - ¡Felicidades! Has completado el nivel intermedio. Ahora estás listo para explorar el backend con FastAPI y bases de datos.
 
 ---

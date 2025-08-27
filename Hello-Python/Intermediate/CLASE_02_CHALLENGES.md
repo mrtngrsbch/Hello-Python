@@ -4,15 +4,18 @@
 # Clase 02 — Retos Prácticos: Integración Total
 
 ## Apertura narrativa
+
 Los challenges son tu campo de entrenamiento real. Aquí combinas todo lo aprendido en contextos prácticos: desde analizar logs hasta procesar datos de usuarios. Cada challenge es una mini-aplicación que resuelve un problema del mundo real.
 
 ## Por qué te importa
+
 - Aplicas múltiples conceptos en escenarios reales.
 - Desarrollas pensamiento algorítmico y resolución de problemas.
 - Preparas tu portfolio con proyectos pequeños pero significativos.
 - Aprendes a dividir problemas grandes en partes manejables.
 
 ## Demostración guiada
+
 ```python
 # Challenge 1: Analizador de logs
 from datetime import datetime
@@ -77,6 +80,7 @@ if __name__ == "__main__":
 ```
 
 ## Micro-kata (15-20 min)
+
 - **Challenge 1**: Crea un analizador de texto que cuente palabras únicas y sus frecuencias.
 - **Challenge 2**: Implementa un sistema de notas que calcule promedios, máximos y mínimos.
 - **Challenge 3**: Desarrolla un validador de emails que verifique formato y dominio permitido.
@@ -84,6 +88,7 @@ if __name__ == "__main__":
 - **Challenge 5**: Implementa un mini-sistema de logs con niveles (INFO, WARNING, ERROR).
 
 ## Cheatsheet de challenges
+
 - **Patrones comunes**:
   - Análisis de datos: list comprehension + funciones auxiliares
   - Validación: regex + condicionales
@@ -97,6 +102,7 @@ if __name__ == "__main__":
 - **Documentación**: docstrings claros para cada función
 
 ## Errores frecuentes
+
 - No manejar casos edge (listas vacías, división por cero).
 - Acoplar demasiado la lógica (una función que hace todo).
 - No validar entradas (asumir que los datos son correctos).
@@ -104,21 +110,25 @@ if __name__ == "__main__":
 - Documentar mal las funciones (sin docstrings claros).
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/02_challenges.py` para ver las demos.
 - Crea tus propios tests con datos reales.
 - Desafío: añade más casos de prueba a cada challenge.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/02_challenges.py`
 - Módulos útiles: `collections`, `itertools`, `functools`
 - Recursos: Real Python challenges, LeetCode fácil
 
 ## Qué te llevas hoy
+
 - Resuelves problemas reales combinando múltiples conceptos.
 - Tienes mini-proyectos para tu portfolio.
 - Sabes estructurar soluciones modulares y reutilizables.
 
 ## Siguiente paso
+
 - Clase 03: funciones lambda para crear funciones rápidas y concisas.
 
 ---

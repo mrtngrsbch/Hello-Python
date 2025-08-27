@@ -4,14 +4,17 @@
 # Clase 11 — Clases y Objetos (modelado de entidades)
 
 ## Apertura narrativa
+
 Las clases son planos; los objetos, las casas construidas con esos planos. Te permiten agrupar estado (atributos) y comportamiento (métodos) de forma coherente.
 
 ## Por qué te importa
+
 - Modelas dominios reales (Usuario, Pedido, Producto) de manera expresiva.
 - Encapsulas lógica y datos, mejorando mantenibilidad.
 - Facilitas pruebas y reutilización.
 
 ## Demostración guiada
+
 ```python
 # Clase simple
 class Persona:
@@ -42,10 +45,12 @@ print(p1.nombre_completo())  # también refleja el alias
 ```
 
 ## Micro‑kata (7–10 min)
+
 - Crea `Libro(titulo, autor, paginas)` con método `descripcion()`.
 - Implementa `CuentaBancaria(titular, saldo=0)` con `depositar()` y `retirar()` (valida saldo suficiente).
 
 ## Cheatsheet de clases
+
 - Definición: `class Nombre: ...`
 - Constructor: `__init__(self, ...)`
 - Métodos: reciben `self` como primer parámetro
@@ -53,20 +58,25 @@ print(p1.nombre_completo())  # también refleja el alias
 - Mutabilidad: múltiples variables pueden apuntar al mismo objeto
 
 ## Errores frecuentes
+
 - Olvidar `self` en métodos.
 - Usar variables de clase cuando querías de instancia.
 - Mutar objetos compartidos sin entender aliasing.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Basic/11_classes.py` para ver las demos.
 
 ## Material de apoyo
+
 - Código de referencia: `Basic/11_classes.py`
 
 ## Qué te llevas hoy
+
 - Modelas entidades con atributos y métodos y entiendes aliasing/mutación.
 
 ## Siguiente paso
+
 - Clase 12: manejo de excepciones (código robusto ante errores).
 
 ---

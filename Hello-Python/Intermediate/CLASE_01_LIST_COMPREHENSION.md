@@ -4,15 +4,18 @@
 # Clase 01 — List Comprehension (Transformaciones elegantes)
 
 ## Apertura narrativa
+
 List comprehension es la forma pitónica de decir "para cada elemento en esta colección, haz esto y devuelve una nueva lista". Es como tener un mini-fabricante de listas que combina bucles, filtros y transformaciones en una sola línea elegante.
 
 ## Por qué te importa
+
 - Reduce 3-4 líneas de código a una sola expresión legible.
 - Mejora la performance al ser más eficiente que los bucles tradicionales.
 - Hace tu código más "pitónico" y fácil de mantener.
 - Perfecto para transformaciones simples y filtros de colecciones.
 
 ## Demostración guiada
+
 ```python
 # List comprehension básica
 números = [1, 2, 3, 4, 5]
@@ -47,12 +50,14 @@ print("Dict comprehension:", cuadrados_dict)
 ```
 
 ## Micro-kata (12-15 min)
+
 - Dada una lista de números, crea una nueva lista con solo los números positivos elevados al cuadrado.
 - De una lista de palabras, filtra las que empiecen con vocal y conviértelas a mayúsculas.
 - Crea una lista de todos los números primos menores que 50 usando list comprehension.
 - Aplanar una lista de listas de listas (3 niveles) usando list comprehension anidada.
 
 ## Cheatsheet de list comprehension
+
 - Sintaxis básica: `[expresión for elemento in iterable]`
 - Con filtro: `[expresión for elemento in iterable if condición]`
 - Múltiples condiciones: `[exp for x in iterable if cond1 if cond2]`
@@ -65,24 +70,29 @@ print("Dict comprehension:", cuadrados_dict)
 - Legibilidad: mejor para operaciones simples, no abuses en complejidades
 
 ## Errores frecuentes
+
 - Abusar de la complejidad: si necesitas más de 2-3 condiciones, usa bucles.
 - Olvidar los corchetes: `[...]` es obligatorio para list comprehension.
 - Confundir el orden en anidaciones: `for x in ... for y in ...`.
 - Side effects en la expresión: evita funciones con efectos secundarios.
+
 
 ## Prueba/ejecución (opcional)
 - Ejecuta `Intermediate/01_list_comprehension.py` para ver las demos.
 - Compara la velocidad con bucles tradicionales para listas grandes.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/01_list_comprehension.py`
 - PEP 202: List Comprehensions
 
 ## Qué te llevas hoy
+
 - Dominas la creación elegante y eficiente de listas transformadas.
 - Puedes reemplazar bucles complejos con expresiones concisas.
 
 ## Siguiente paso
+
 - Clase 02: Challenges para practicar todo lo aprendido con ejercicios integrados.
 
 ---

@@ -4,15 +4,18 @@
 # Clase 05 — Error Types (Manejo elegante de excepciones)
 
 ## Apertura narrativa
+
 Los errores no son enemigos, son mensajeros que te indican qué salió mal. Dominar los tipos de errores es como aprender los diferentes tipos de señales de tráfico: cada uno tiene un significado específico y una respuesta apropiada.
 
 ## Por qué te importa
+
 - Manejas errores de forma específica y elegante.
 - Evitas el catch-all genérico que oculta problemas reales.
 - Creas aplicaciones robustas que fallan con gracia.
 - Mejoras la experiencia de usuario con mensajes claros.
 
 ## Demostración guiada
+
 ```python
 from typing import Union, List
 import json
@@ -113,6 +116,7 @@ if __name__ == "__main__":
 ```
 
 ## Micro-kata (12-15 min)
+
 - **Ejercicio 1**: Crea una función que maneje diferentes tipos de errores al leer un CSV.
 - **Ejercicio 2**: Implementa un validador de números de tarjeta con manejo específico de errores.
 - **Ejercicio 3**: Crea un parser de URLs que maneje errores de formato y protocolo.
@@ -120,6 +124,7 @@ if __name__ == "__main__":
 - **Ejercicio 5**: Implementa un conversor de unidades con validación y manejo de errores.
 
 ## Cheatsheet de tipos de errores
+
 - **Errores comunes**:
   - `ValueError`: valor incorrecto (int("abc"))
   - `TypeError`: tipo incorrecto ("texto" + 5)
@@ -129,7 +134,9 @@ if __name__ == "__main__":
   - `JSONDecodeError`: JSON mal formado
   - `KeyError`: clave no existe en dict
   - `IndexError**: índice fuera de rango
+
 - **Estructura de manejo**:
+
   ```python
   try:
       # código
@@ -142,6 +149,7 @@ if __name__ == "__main__":
   finally:
       # siempre se ejecuta
   ```
+
 - **Buenas prácticas**:
   - Ser específico con los tipos de errores
   - Proporcionar mensajes útiles
@@ -149,6 +157,7 @@ if __name__ == "__main__":
   - No ocultar errores con catch-all
 
 ## Errores frecuentes
+
 - Usar `except Exception` para todo (oculta errores específicos).
 - No proporcionar mensajes de error claros.
 - Abusar de try-except para control de flujo normal.
@@ -156,22 +165,26 @@ if __name__ == "__main__":
 - Swallowing exceptions sin loggear.
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Intermediate/05_error_types.py` para ver las demos.
 - Prueba cada tipo de error con diferentes escenarios.
 - Crea tests unitarios para tus funciones con manejo de errores.
 
 ## Material de apoyo
+
 - Código de referencia: `Intermediate/05_error_types.py`
 - Documentación: Python Exception Hierarchy
 - Herramientas: `logging` para logs estructurados
 - Testing: `pytest.raises()` para testear excepciones
 
 ## Qué te llevas hoy
+
 - Manejas errores de forma específica y elegante.
 - Creas aplicaciones robustas que fallan con gracia.
 - Sabes cuándo y cómo capturar cada tipo de error.
 
 ## Siguiente paso
+
 - Clase 06: File Handling para trabajar con archivos de forma segura y eficiente.
 
 ---

@@ -4,14 +4,17 @@
 # Clase 10 — Funciones (organizar y reutilizar lógica)
 
 ## Apertura narrativa
+
 Las funciones son bloques de construcción: encapsulan una tarea con nombre y te permiten reutilizarla sin repetir código. Son la base para escalar desde scripts simples hasta proyectos serios.
 
 ## Por qué te importa
+
 - Reutilizas lógica y reduces duplicación.
 - Haces tu código más legible y testeable.
 - Controlas entradas (parámetros) y salidas (`return`).
 
 ## Demostración guiada
+
 ```python
 # Definición básica y parámetros
 
@@ -57,10 +60,12 @@ def dividir(a: float, b: float) -> float:
 ```
 
 ## Micro‑kata (7–10 min)
+
 - Escribe `es_palindromo(texto)` que ignore espacios y mayúsculas.
 - Implementa `aplicar_descuento(precio, porcentaje=10)` con validaciones.
 
 ## Cheatsheet de funciones
+
 - Definición: `def nombre(params): ... return valor`
 - Parámetros: posicionales, palabra clave, por defecto, `*args`, `**kwargs`
 - Docstrings: explican propósito, parámetros y retornos
@@ -68,20 +73,25 @@ def dividir(a: float, b: float) -> float:
 - `return` vs `print`: devuelve datos para componer; `print` solo muestra
 
 ## Errores frecuentes
+
 - Olvidar `return` (la función devuelve `None`).
 - Usar `print` en vez de devolver valores dificulta tests.
 - Mutar argumentos mutables por defecto (usa `None` y crea dentro).
 
 ## Prueba/ejecución (opcional)
+
 - Ejecuta `Basic/10_functions.py` para ver las demos.
 
 ## Material de apoyo
+
 - Código de referencia: `Basic/10_functions.py`
 
 ## Qué te llevas hoy
+
 - Diseñas funciones claras, con parámetros adecuados y retornos útiles.
 
 ## Siguiente paso
+
 - Clase 11: clases y objetos (modela entidades con comportamiento).
 
 ---

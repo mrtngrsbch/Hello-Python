@@ -8,24 +8,24 @@
 
 ### **Nivel 1: Fundamentos de Python** *(Curso de fundamentos desde cero)*
 
-| Módulo                                                 | Video                                       | Descripción                                   | Nivel         |
-| --------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------ | --------------- |
+| Módulo                                                           | Video                                         | Descripción                                      | Nivel        |
+| ---------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | ------------ |
 | [**00 - Instalación y Configuración**](Basic/CLASE_00.md) | [Video](https://youtu.be/Kp4Mvapo5kc?t=850)   | Python + VS Code: Setup profesional              | Principiante |
-| [**01 - Hola Mundo**](Basic/CLASE_01.md)                  | [Video](https://youtu.be/Kp4Mvapo5kc?t=1518)  | Tu primer programa en Python                     | Principiante |
-| [**02 - Variables y Tipos**](Basic/CLASE_02.md)           | [Video](https://youtu.be/Kp4Mvapo5kc?t=2938)  | int, float, str, bool: Los bloques fundamentales | Principiante |
-| [**03 - Números y Operaciones**](Basic/CLASE_03.md)       | [Video](https://youtu.be/Kp4Mvapo5kc?t=5665)  | Aritmética, lógica y comparaciones               | Principiante |
-| [**04 - Strings (Cadenas)**](Basic/CLASE_04.md)           | [Video](https://youtu.be/Kp4Mvapo5kc?t=8643)  | Manipulación avanzada de texto                   | Principiante |
-| [**05 - Listas**](Basic/CLASE_05.md)                      | [Video](https://youtu.be/Kp4Mvapo5kc?t=10872) | Arrays dinámicos y sus métodos                   | Principiante |
-| [**06 - Tuplas**](Basic/CLASE_06.md)                      | [Video](https://youtu.be/Kp4Mvapo5kc?t=14711) | Estructuras inmutables y eficientes              | Principiante |
-| [**07 - Conjuntos (Sets)**](Basic/CLASE_07.md)            | [Video](https://youtu.be/Kp4Mvapo5kc?t=16335) | Operaciones de conjunto únicas                   | Principiante |
-| [**08 - Diccionarios**](Basic/CLASE_08.md)                | [Video](https://youtu.be/Kp4Mvapo5kc?t=18506) | Clave-valor: El poder de los hashes              | Principiante |
-| [**09 - Condicionales**](Basic/CLASE_09.md)               | [Video](https://youtu.be/Kp4Mvapo5kc?t=21442) | if, elif, else: Toma decisiones                  | Principiante |
-| [**10 - Bucles**](Basic/CLASE_10.md)                      | [Video](https://youtu.be/Kp4Mvapo5kc?t=23822) | for y while: Repetición inteligente              | Principiante |
-| [**11 - Funciones**](Basic/CLASE_11.md)                   | [Video](https://youtu.be/Kp4Mvapo5kc?t=26619) | Reutilización y abstracción                      | Principiante |
-| [**12 - Módulos**](Basic/CLASE_12.md)                     | [Video](https://youtu.be/Kp4Mvapo5kc?t=34583) | Organización y reutilización de código           | Principiante |
-| [**13 - Clases y Objetos**](Basic/CLASE_13.md)            | [Video](https://youtu.be/Kp4Mvapo5kc?t=29327) | POO: Tu primer clase                             | Intermedio   |
-| [**14 - Herencia**](Basic/CLASE_13.md)                    | [Video](https://youtu.be/Kp4Mvapo5kc?t=32030) | Extensibilidad y reutilización                   | Intermedio   |
-| [**15 - Excepciones**](Basic/CLASE_13.md)                 | [Video](https://youtu.be/Kp4Mvapo5kc?t=32030) | Manejo robusto de errores                        | Intermedio   |
+| [**01 - Hola Mundo**](Basic/CLASE_01.md)                         | [Video](https://youtu.be/Kp4Mvapo5kc?t=1518)  | Tu primer programa en Python                     | Principiante |
+| [**02 - Variables y Tipos**](Basic/CLASE_02.md)                  | [Video](https://youtu.be/Kp4Mvapo5kc?t=2938)  | int, float, str, bool: Los bloques fundamentales | Principiante |
+| [**03 - Números y Operaciones**](Basic/CLASE_03.md)              | [Video](https://youtu.be/Kp4Mvapo5kc?t=5665)  | Aritmética, lógica y comparaciones               | Principiante |
+| [**04 - Strings (Cadenas)**](Basic/CLASE_04.md)                  | [Video](https://youtu.be/Kp4Mvapo5kc?t=8643)  | Manipulación avanzada de texto                   | Principiante |
+| [**05 - Listas**](Basic/CLASE_05.md)                             | [Video](https://youtu.be/Kp4Mvapo5kc?t=10872) | Arrays dinámicos y sus métodos                   | Principiante |
+| [**06 - Tuplas**](Basic/CLASE_06.md)                             | [Video](https://youtu.be/Kp4Mvapo5kc?t=14711) | Estructuras inmutables y eficientes              | Principiante |
+| [**07 - Conjuntos (Sets)**](Basic/CLASE_07.md)                   | [Video](https://youtu.be/Kp4Mvapo5kc?t=16335) | Operaciones de conjunto únicas                   | Principiante |
+| [**08 - Diccionarios**](Basic/CLASE_08.md)                       | [Video](https://youtu.be/Kp4Mvapo5kc?t=18506) | Clave-valor: El poder de los hashes              | Principiante |
+| [**09 - Condicionales**](Basic/CLASE_09.md)                      | [Video](https://youtu.be/Kp4Mvapo5kc?t=21442) | if, elif, else: Toma decisiones                  | Principiante |
+| [**10 - Bucles**](Basic/CLASE_10.md)                             | [Video](https://youtu.be/Kp4Mvapo5kc?t=23822) | for y while: Repetición inteligente              | Principiante |
+| [**11 - Funciones**](Basic/CLASE_11.md)                          | [Video](https://youtu.be/Kp4Mvapo5kc?t=26619) | Reutilización y abstracción                      | Principiante |
+| [**12 - Módulos**](Basic/CLASE_12.md)                            | [Video](https://youtu.be/Kp4Mvapo5kc?t=34583) | Organización y reutilización de código           | Principiante |
+| [**13 - Clases y Objetos**](Basic/CLASE_13.md)                   | [Video](https://youtu.be/Kp4Mvapo5kc?t=29327) | POO: Tu primer clase                             | Intermedio   |
+| [**14 - Herencia**](Basic/CLASE_13.md)                           | [Video](https://youtu.be/Kp4Mvapo5kc?t=32030) | Extensibilidad y reutilización                   | Intermedio   |
+| [**15 - Excepciones**](Basic/CLASE_13.md)                        | [Video](https://youtu.be/Kp4Mvapo5kc?t=32030) | Manejo robusto de errores                        | Intermedio   |
 
 ---
 
