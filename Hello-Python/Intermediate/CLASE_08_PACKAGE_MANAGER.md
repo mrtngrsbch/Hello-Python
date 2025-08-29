@@ -247,8 +247,8 @@ if __name__ == "__main__":
 ## Material de apoyo
 
 - Código de referencia: `Intermediate/08_python_package_manager.py`
-- PyPI: https://pypi.org/
-- Documentación: https://packaging.python.org/
+- PyPI: <https://pypi.org/>
+- Documentación: <https://packaging.python.org/>
 - Herramientas modernas: Poetry, Pipenv, Hatch
 - Tutorial: "Packaging Python Projects" en docs.python.org
 

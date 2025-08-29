@@ -145,6 +145,7 @@ if __name__ == "__main__":
 ```
 
 ## Micro-kata (15-18 min)
+
 - **Ejercicio 1**: Crea un validador de números de tarjeta de crédito.
 - **Ejercicio 2**: Implementa un extractor de hashtags de redes sociales.
 - **Ejercicio 3**: Desarrolla un validador de contraseñas seguras.
@@ -194,7 +195,7 @@ if __name__ == "__main__":
 ## Prueba/ejecución (opcional)
 
 - Ejecuta `Intermediate/07_regular_expressions.py` para ver las demos.
-- Prueba tus patrones en https://regex101.com/
+- Prueba tus patrones en <https://regex101.com/>
 - Crea un banco de pruebas para tus validadores.
 
 ## Material de apoyo
